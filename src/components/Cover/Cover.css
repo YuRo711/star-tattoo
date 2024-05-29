@@ -1,0 +1,95 @@
+.cover {
+  display: flex;
+  justify-content: space-between;
+  width: 1520px;
+  padding: 58px 0 220px;
+}
+
+.cover__info {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.cover__title {
+  font-family:'Angel Rhapsody', Times, serif;
+  color: #FFF4EB;
+  font-size: 112px;
+  margin: 140px 0 0;
+}
+
+.cover__span {
+  color: #DB9F6A;
+}
+
+.cover__schedule {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cover__time-icon {
+  width: 52px;
+  height: 52px;
+  background-color: #DB9F6A;
+  background-image: url('../../images/clock.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.cover__schedule-week {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cover__work-time {
+  margin: 0;
+  color: #FFF;
+  font-family: 'Satoshi', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cover__week-days {
+  margin-right: 12px;
+  color: #DB9F6A;
+}
+
+
+.cover__button {
+  background: none;
+  border: none;
+  background-image: url('../../images/button.svg');
+  width: 362px;
+  height: 80px;
+  text-transform: uppercase;
+  font-family: 'Satoshi', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: scale 0.2s ease-in-out;
+}
+
+.cover__button:hover {
+  scale: 1.05;
+}
+
+.cover__button:active {
+  scale: 1;
+}
+
+
+.cover__illustration {
+  width: 930px;
+}
+
+.cover__vector {
+  position: absolute;
+}
+
+.cover__girl {
+  position: absolute;
+}

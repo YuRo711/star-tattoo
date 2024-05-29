@@ -3,4 +3,22 @@
     min-height: 100vh;
     margin: 0;
     background-color: #12100C;
+    background-image: url('../../images/bg.svg');
+}
+
+
+h2 {
+    font-family:'Angel Rhapsody', Times, serif;
+    color: #FFF4EB;
+    font-size: 64px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Satoshi', Arial, sans-serif;
+    margin: 0;
+}
+
+button {
+    font-family: 'Satoshi', Arial, sans-serif;
 }

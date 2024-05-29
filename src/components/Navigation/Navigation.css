@@ -1,0 +1,24 @@
+.navigation {
+  border-radius: 32px;
+  background-color: rgb(42, 39, 34, 0.5);
+  width: 1520px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.navigation__links {
+  display: flex;
+  gap: 52px;
+}
+
+.navigation__link {
+  color: rgb(255, 244, 235, 0.8);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Satoshi', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}

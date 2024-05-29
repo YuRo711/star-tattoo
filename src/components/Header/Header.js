@@ -1,3 +1,4 @@
+import Companies from "../Companies/Companies";
 import Cover from "../Cover/Cover";
 import Navigation from "../Navigation/Navigation";
 import "./Header.css";
@@ -7,6 +8,7 @@ function Header(props) {
     <header className="header">
       <Navigation/>
       <Cover/>
+      <Companies/>
     </header>
   );
 }

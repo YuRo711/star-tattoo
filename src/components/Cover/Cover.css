@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 1520px;
-  padding: 58px 0 220px;
+  padding: 58px 0 0;
 }
 
 .cover__info {
@@ -91,5 +91,4 @@
 }
 
 .cover__girl {
-  position: absolute;
 }

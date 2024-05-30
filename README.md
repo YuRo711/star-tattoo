@@ -1,0 +1,1 @@
+This is a practice React project made from a free-to-use Figma design: https://www.figma.com/design/STWVVGUdNjvVVz0w2gmNlH/

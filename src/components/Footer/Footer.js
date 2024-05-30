@@ -3,10 +3,12 @@ import logo from "../../images/Star 1.svg";
 import youtube from "../../images/youtube.svg";
 import twitter from "../../images/twitter.svg";
 import insta from "../../images/insta.svg";
+import Contact from "../Contact/Contact";
 
 function Footer(props) {
   return (
     <footer className="footer">
+      <Contact/>
       <div className="footer__content">
         <img className="footer__logo"
           src={logo}

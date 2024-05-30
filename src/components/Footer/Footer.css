@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding: 182px 0 52px;
+  position: relative;
 }
 
 .footer__content {

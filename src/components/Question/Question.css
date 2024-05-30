@@ -2,8 +2,8 @@
   padding: 32px 24px;
   display: flex;
   flex-direction: column;
-  border-bottom: solid 3px rgb(255, 255, 255, 0.2);
-  max-width: 1002px;
+  border-bottom: solid 2px rgb(255, 255, 255, 0.2);
+  width: 1002px;
 }
 
 .question__header {
@@ -46,10 +46,11 @@
   font-weight: 500;
   line-height: 150%;
   margin: 32px 0 0;
+  display: block;
 }
 
 .question__text_hidden {
-  visibility: collapse;
+  display: none;
 }
 
 .question__bold {
